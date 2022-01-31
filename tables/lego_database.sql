@@ -34,7 +34,7 @@ CREATE TABLE `Inventory_parts` (
   `part_num` varchar(100),
   `color_id` smallint,
   `quantity` tinyint,
-  `is_spare` boolean
+  `is_spare` varchar(2)
 );
 
 CREATE TABLE `Inventories` (
@@ -47,7 +47,7 @@ CREATE TABLE `Colors` (
   `id` smallint PRIMARY KEY,
   `name` varchar(100),
   `rgb` varchar(100),
-  `is_trans` boolean
+  `is_trans` varchar(2)
 );
 
 ALTER TABLE `Sets` ADD FOREIGN KEY (`theme_id`) REFERENCES `Themes` (`id`);
@@ -63,3 +63,6 @@ ALTER TABLE `Parts` ADD FOREIGN KEY (`part_cat_id`) REFERENCES `Part_categories`
 ALTER TABLE `Inventory_parts` ADD FOREIGN KEY (`color_id`) REFERENCES `Colors` (`id`);
 
 ALTER TABLE `Inventory_parts` ADD FOREIGN KEY (`part_num`) REFERENCES `Parts` (`part_num`);
+
+select * from colors;
+
