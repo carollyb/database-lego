@@ -23,25 +23,25 @@
 ###### https://database-lego.netlify.app/
 
 ### Perguntas:
-[x] 1. Quais foram os temas mais usados nos anos 80?
-[x] 2. Qual o ranking dos 5 sets com mais peças e em que ano foram lançados?
-[x] 3. No inventário, quais as categorias com mais de 20.000 peças disponíveis?
-[x] 4. Qual o ranking dos anos com mais de 100 sets lançados?
-[x] 5. Quais os sets do tema Batman com mais de 500 peças e os anos de lançamento?
-[x] 6. Quais são os sets do tema Bionicle que têm o número de peças maior que a média geral dos sets?
-[x] 7. Quais foram os sets relançados a partir dos anos 80 e qual o número de partes?
-[x] 8. Quais foram os anos de lançamento dos 15 maiores sets com tema Aeroporto?
-[x] 9. Quais são as cores cadastradas que não estão sendo usadas em nenhuma peça? 
-[x] 10. Quais os anos de lançamento dos sets de minifigures com 60 itens na caixa do inventário?
+- [x] 1. Quais foram os temas mais usados nos anos 80?
+- [x] 2. Qual o ranking dos 5 sets com mais peças e em que ano foram lançados?
+- [x] 3. No inventário, quais as categorias com mais de 20.000 peças disponíveis?
+- [x] 4. Qual o ranking dos anos com mais de 100 sets lançados?
+- [x] 5. Quais os sets do tema Batman com mais de 500 peças e os anos de lançamento?
+- [x] 6. Quais são os sets do tema Bionicle que têm o número de peças maior que a média geral dos sets?
+- [x] 7. Quais foram os sets relançados a partir dos anos 80 e qual o número de partes?
+- [x] 8. Quais foram os anos de lançamento dos 15 maiores sets com tema Aeroporto?
+- [x] 9. Quais são as cores cadastradas que não estão sendo usadas em nenhuma peça? 
+- [x] 10. Quais os anos de lançamento dos sets de minifigures com 60 itens na caixa do inventário?
 
 ### Tecnologias utilizadas:
 <div align-items="center">
   <div>
-  <img alt="html" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"/>  
-  <img alt="boostrap" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"/>
-  <img alt="mysql" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
-  <img alt="power BI" height="30" width="40" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Power_bi_logo_black.svg/1200px-Power_bi_logo_black.svg.png" />
-  <img  alt="trello" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg" />
+  <img alt="html" height="30" width="auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"/>  
+  <img alt="boostrap" height="30" width="auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"/>
+  <img alt="mysql" height="30" width="auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
+  <img alt="power BI" height="30" width="auto" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Power_bi_logo_black.svg/1200px-Power_bi_logo_black.svg.png" />
+  <img  alt="trello" height="30" width="auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg" />
 </div>
 
 ### Demonstração:

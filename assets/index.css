@@ -1,13 +1,13 @@
+#info{
+    line-height: 40px;
+}
+
 #pe{
     background: whitesmoke;
     text-align: center;
     flex-shrink: 0;
     padding-bottom: 1px;
     margin-top: 10%;
-}
-
-#logoPe{
-   text-align: center;
 }
 
 .pPe{
