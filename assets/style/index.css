@@ -1,0 +1,19 @@
+#info{
+    line-height: 40px;
+}
+
+.imagemHero{
+    background-image: url(../images/hero.png);
+    background-repeat: no-repeat;
+    background-position: 50% 55%;
+    background-size: 50%;
+}
+
+.titulosI {
+    box-shadow: 0px 4px 6px -1px rgba(187, 0, 194, 0.733), 0px 2px 4px -1px rgba(114, 1, 1, 0.07);
+}
+
+#footer{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}   

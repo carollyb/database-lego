@@ -1,10 +1,10 @@
 # Database LEGO - Análise e Visualização de Dados 
 
 ### Proposta
-###### Elaboração de queries com base no conjunto de dados da LEGO, a fim de realizar uma apresentação com a exploração dos dados.
+##### Elaboração de queries com base no conjunto de dados da LEGO, a fim de realizar uma apresentação com a exploração dos dados.
 
 ### Contexto
-###### Fundada em 1932 por Ole Kirk Kristiansen, LEGO é uma marca popular de tijolos de construção de brinquedo. Eles são frequentemente vendidos em conjuntos para construir um objeto específico. Cada conjunto contém um número de peças em diferentes formas, tamanhos e cores. Este banco de dados contém informações sobre quais peças estão incluídas em diferentes conjuntos LEGO. Ele foi originalmente compilado para ajudar as pessoas que possuíam alguns conjuntos LEGO a descobrir quais outros conjuntos eles poderiam construir com as peças que tinham. 
+##### Fundada em 1932 por Ole Kirk Kristiansen, LEGO é uma marca popular de tijolos de construção de brinquedo. Eles são frequentemente vendidos em conjuntos para construir um objeto específico. Cada conjunto contém um número de peças em diferentes formas, tamanhos e cores. Este banco de dados contém informações sobre quais peças estão incluídas em diferentes conjuntos LEGO. Ele foi originalmente compilado para ajudar as pessoas que possuíam alguns conjuntos LEGO a descobrir quais outros conjuntos eles poderiam construir com as peças que tinham. 
 
 ### Requisitos:
 
@@ -15,12 +15,13 @@
 - [x] Montar uma apresentação a partir das perguntas e análise exploratória feita em cima do conjunto de dados selecionado.
 
 ### Como consultar
-###### Passo 1: Baixe os arquivos contidos nas pastas "database" e "keys" na branch master deste repositório e rode no MySQL;
-###### Passo 2: Rode o arquivo "projeto lego modulo 3.sql" contido na pasta "database" na branch master deste repositório para fazer a carga dos dados;
-###### Passo 3: Baixe os arquivos contidos na pasta "queries" e "keys" e rode no MySQL.
-
+##### Passo 1: Baixe os arquivos contidos nas pastas "database" e "keys" na branch master deste repositório e rode no MySQL;
+##### Passo 2: Rode o arquivo "projeto lego modulo 3.sql" contido na pasta "database" na branch master deste repositório para criar a database e fazer a carga dos dados;
+##### Passo 3: Baixe oo arquivo contido na pasta "keys" e rode, no MySQL, "keys.sql" para criar os relacionamentos entre as tabelas;
+##### Passo 4: Baixe os arquivos contidos na pasta "queries" para ter acesso às perguntas elaboradas pelo grupo. 
+##### PS: As tabelas originais constam na pasta "data".
 ### Página
-###### https://database-lego.netlify.app/
+##### https://database-lego.netlify.app/
 
 ### Perguntas:
 - [x] 1. Quais foram os temas mais usados nos anos 80?
@@ -35,9 +36,10 @@
 - [x] 10. Quais os anos de lançamento dos sets de minifigures com 60 itens na caixa do inventário?
 
 ### Tecnologias utilizadas:
-<div align-items="center">
-  <div>
-  <img alt="html" height="30" width="auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"/>  
+
+<div>
+  <img alt="html" height="30" width="auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"/>
+  <img alt="css" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"/>
   <img alt="boostrap" height="30" width="auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"/>
   <img alt="mysql" height="30" width="auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
   <img alt="power BI" height="30" width="auto" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Power_bi_logo_black.svg/1200px-Power_bi_logo_black.svg.png" />
@@ -45,4 +47,5 @@
 </div>
 
 ### Demonstração:
-![image](./images/grafico_2.png)
+
+![image](./images/grafico_3.png)
