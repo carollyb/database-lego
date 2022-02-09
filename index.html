@@ -1,190 +1,361 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lego Database</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/style/index.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lego Database</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="./assets/style/index.css">
-  
+  <body style="font-family: 'Poppins', sans-serif">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand bg-dark" href="#">
+            <img
+              src="./assets/images/LEGO-Logo.png"
+              alt=""
+              width="50px"
+              class="d-inline-block bg-dark"
+            />
+            LEGO Database
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="#info">Sobre</a>
+              <a class="nav-link" href="./contatos.html">Contato</a>
+              <a class="nav-link" href="./diagramas.html">Diagramas</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-</head>
+    <main class="d-flex flex-column">
+      <div style="background-color: #383737">
+        <div
+          style="height: 600px; overflow: hidden"
+          class="titulosI imagemHero"
+        ></div>
 
-<body style="font-family: 'Poppins', sans-serif;">
-  <header>
+        <section class="d-flex justify-content-center w-100 mt-5">
+          <p class="w-50 text-white" id="info">
+            Fundada em 1932 por Ole Kirk Kristiansen, LEGO é uma marca popular
+            de tijolos de construção de brinquedo. Eles são frequentemente
+            vendidos em conjuntos para construir um objeto específico. Cada
+            conjunto contém um número de peças em diferentes formas, tamanhos e
+            cores. Este banco de dados contém informações sobre quais peças
+            estão incluídas em diferentes conjuntos LEGO. Ele foi originalmente
+            compilado para ajudar as pessoas que possuíam alguns conjuntos LEGO
+            a descobrir quais outros conjuntos eles poderiam construir com as
+            peças que tinham.
+          </p>
+        </section>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand bg-dark" href="#">
-          <img src="./assets/images/LEGO-Logo.png" alt="" width="50px" class="d-inline-block bg-dark"> LEGO Database
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link" href="#info">Sobre</a>
-            <a class="nav-link" href="./contatos.html">Contato</a>
+        <h1
+          style="font-weight: 600; font-size: 48px"
+          class="mt-5 ps-5 pb-3 text-white titulosI"
+        >
+          Insights sobre sets
+        </h1>
 
+        <div class="d-flex flex-row justify-content-center w-100">
+          <iframe
+            class="mt-2"
+            width="1200px"
+            height="700px"
+            title="Insights sobre sets"
+            src="https://app.powerbi.com/view?r=eyJrIjoiMTUxMGU5YjgtMDkwOC00MWNkLTlkNzktN2RhNDExZDE5OWQxIiwidCI6IjJmMWZjOWI5LWQwYzYtNDI0ZC1iZDQ2LTU5ZWY1NTFhYmQxZCJ9&pageName=ReportSection"
+            frameborder="0"
+            allowfullscreen="true"
+          ></iframe>
+        </div>
+
+        <h1
+          style="font-weight: 600; font-size: 48px"
+          class="mt-5 ps-5 pb-3 text-white titulosI"
+        >
+          Insights sobre temas e categorias
+        </h1>
+
+        <div class="d-flex flex-row justify-content-center w-100">
+          <iframe
+            class="mt-2"
+            title="Insights sobre temas e categorias"
+            width="1200px"
+            height="700px"
+            src="https://app.powerbi.com/view?r=eyJrIjoiMTUxMGU5YjgtMDkwOC00MWNkLTlkNzktN2RhNDExZDE5OWQxIiwidCI6IjJmMWZjOWI5LWQwYzYtNDI0ZC1iZDQ2LTU5ZWY1NTFhYmQxZCJ9"
+            frameborder="0"
+            allowfullscreen="true"
+          ></iframe>
+        </div>
+
+        <h1
+          style="font-weight: 600; font-size: 48px"
+          class="mt-5 ps-5 pb-3 text-white titulosI"
+        >
+          Insights variados
+        </h1>
+
+        <div class="d-flex flex-row justify-content-center w-100">
+          <iframe
+            class="mt-2"
+            title="Insights miscellaneous"
+            width="1200px"
+            height="720px"
+            src="https://app.powerbi.com/view?r=eyJrIjoiZWU1MWU0NGMtZmU5NC00ZjM2LTk5MTEtMzIxNjk5NDFmYjVmIiwidCI6IjJmMWZjOWI5LWQwYzYtNDI0ZC1iZDQ2LTU5ZWY1NTFhYmQxZCJ9&pageName=ReportSection"
+            frameborder="0"
+            allowfullscreen="true"
+          ></iframe>
+        </div>
+      </div>
+
+      <div
+        class="d-flex flex-row w-100 align-items-center mt-5"
+        style="height: 680px"
+      >
+        <div class="flex-column ml-5 ms-5 w-50">
+          <h1 style="font-weight: 600">Acesso rápido</h1>
+          <p style="font-weight: 300">
+            Dez perguntas foram idealizadas pelo grupo tendo como base os dados
+            fornecidos pelas tabelas. Abarcando os temas, sets e demais
+            atributos da LEGO, o MySQL e o conhecimento em banco de dados
+            relacionais aprendidos em sala foram utilizados para gerar
+            visualizações a seguir:
+          </p>
+        </div>
+        <div class="w-75">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="3"
+                aria-label="Slide 4"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="4"
+                aria-label="Slide 5"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="5"
+                aria-label="Slide 6"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="6"
+                aria-label="Slide 7"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="7"
+                aria-label="Slide 8"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="8"
+                aria-label="Slide 9"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="9"
+                aria-label="Slide 10"
+              ></button>
+            </div>
+            <div class="carousel-inner d-flex">
+              <div class="carousel-item active">
+                <img
+                  src="./assets/images/grafico_1.png"
+                  class="w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./assets/images/grafico_2.png"
+                  class="w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./assets/images/grafico_3.png"
+                  class="w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./assets/images/grafico_4.png"
+                  class="w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./assets/images/grafico_5.png"
+                  class="w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./assets/images/grafico_6.png"
+                  class="w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./assets/images/grafico_7.png"
+                  class="w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./assets/images/grafico_8.png"
+                  class="w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./assets/images/grafico_9.png"
+                  class="w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./assets/images/graficos_10.png"
+                  class="w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
         </div>
       </div>
-    </nav>
+    </main>
 
-  </header>
-
-  <main class="d-flex flex-column" >
-
-    <div style="background-color: #383737;">
-      <div style="height: 600px; overflow: hidden;" class="titulosI imagemHero">
-        
+    <footer
+      id="footer"
+      class="d-flex flex-row justify-content-start align-items-start p-5 bg-dark"
+      style="height: 350px"
+    >
+      <div class="ms-5 ps-5">
+        <img src="https://img.icons8.com/ios-filled/50/000000/lego.png" />
       </div>
-  
-      <section class="d-flex justify-content-center w-100 mt-5">
-        
-        <p class="w-50 text-white" id="info"> Fundada em 1932 por Ole Kirk Kristiansen, LEGO é uma marca popular de tijolos de construção de brinquedo.
-          Eles são frequentemente vendidos em conjuntos para construir um objeto específico. Cada conjunto contém um
-          número de peças em
-          diferentes formas, tamanhos e cores.
-          Este banco de dados contém informações sobre quais peças estão incluídas em diferentes conjuntos LEGO.
-          Ele foi originalmente compilado para ajudar as pessoas que possuíam alguns conjuntos LEGO a descobrir quais
-          outros
-          conjuntos eles poderiam construir com as peças que tinham. </p>
-          
-      </section>
-  
-      <h1 style="font-weight: 600;font-size: 48px;" class="mt-5 ps-5 pb-3 text-white titulosI">Insights sobre sets</h1>
-  
-      <div>
-        <iframe class="mt-2" title="Insights sobre sets" width="1902" height="1060" src="https://app.powerbi.com/view?r=eyJrIjoiMTUxMGU5YjgtMDkwOC00MWNkLTlkNzktN2RhNDExZDE5OWQxIiwidCI6IjJmMWZjOWI5LWQwYzYtNDI0ZC1iZDQ2LTU5ZWY1NTFhYmQxZCJ9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
+      <div class="ms-5 ps-5">
+        <h6 style="font-weight: 600" class="pb-4">Sobre</h6>
+        <p>
+          Projeto final do Módulo 3: Bancos de dados relacionais @ Resilia
+          Educação
+        </p>
+        <p>Desenvolvimento Web Full Stack</p>
+        <p>Turma 10 - Grupo 04</p>
+        <p>RESILIA</p>
       </div>
-  
-      <h1 style="font-weight: 600;font-size: 48px;" class="mt-5 ps-5 pb-3 text-white titulosI">Insights sobre temas e categorias</h1>
-  
-      <div>
-        <iframe class="mt-2" title="Insights sobre temas e categorias" width="1902" height="1060" src="https://app.powerbi.com/view?r=eyJrIjoiMTUxMGU5YjgtMDkwOC00MWNkLTlkNzktN2RhNDExZDE5OWQxIiwidCI6IjJmMWZjOWI5LWQwYzYtNDI0ZC1iZDQ2LTU5ZWY1NTFhYmQxZCJ9" frameborder="0" allowFullScreen="true"></iframe>
+      <div class="ms-5 ps-5">
+        <h6 style="font-weight: 600" class="pb-4">Grupo 04</h6>
+        <p>Carolly Barbosa</p>
+        <p>Eliane Barros</p>
+        <p>Hugo Parada</p>
+        <p>Nádia Mizael</p>
+        <p>Rodrigo Cruz</p>
       </div>
-  
-      <h1 style="font-weight: 600;font-size: 48px;" class="mt-5 ps-5 pb-3 text-white titulosI">Insights variados</h1>
-  
-      <div class="d-flex flex-row justify-content-center w-100">
-        <iframe class="mt-2" title="Insights miscellaneous" width="1902" height="1000" src="https://app.powerbi.com/view?r=eyJrIjoiZWU1MWU0NGMtZmU5NC00ZjM2LTk5MTEtMzIxNjk5NDFmYjVmIiwidCI6IjJmMWZjOWI5LWQwYzYtNDI0ZC1iZDQ2LTU5ZWY1NTFhYmQxZCJ9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
-      </div>
-    </div>
-
-    <div class="d-flex flex-row w-100 align-items-center mt-5"  style="height: 680px">
-      
-      <div class="flex-column ml-5 ms-5 w-50">
-        <h1 style="font-weight: 600;">Acesso rápido</h1>
-        <p style="font-weight: 300;">Dez perguntas foram idealizadas pelo grupo tendo como base os dados fornecidos pelas tabelas. Abarcando os temas, sets e demais atributos da LEGO, o MySQL e o conhecimento em banco de dados relacionais aprendidos em sala foram utilizados para gerar visualizações a seguir:</p>
-      </div>
-      <div class="w-75">
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-              aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-              aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-              aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-              aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
-              aria-label="Slide 5"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
-              aria-label="Slide 6"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
-              aria-label="Slide 7"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7"
-              aria-label="Slide 8"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8"
-              aria-label="Slide 9"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9"
-              aria-label="Slide 10"></button>
-          </div>
-          <div class="carousel-inner d-flex">
-            <div class="carousel-item active">
-              <img src="./assets/images/grafico_1.png" class=" w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="./assets/images/grafico_2.png" class=" w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="./assets/images/grafico_3.png" class=" w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="./assets/images/grafico_4.png" class="w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="./assets/images/grafico_5.png" class="w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="./assets/images/grafico_6.png" class="w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="./assets/images/grafico_7.png" class="w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="./assets/images/grafico_8.png" class="w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="./assets/images/grafico_9.png" class="w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="./assets/images/graficos_10.png" class="w-100" alt="...">
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div>
-    </div>
-   
-  </main>
-
-  <footer id="footer" class="d-flex flex-row justify-content-start align-items-start p-5 bg-dark" style="height: 350px;">
-    <div class="ms-5 ps-5">
-      <img src="https://img.icons8.com/ios-filled/50/000000/lego.png"/>
-    </div>
-    <div class="ms-5 ps-5">
-      <h6 style="font-weight: 600;" class="pb-4">Sobre</h6>
-      <p>Projeto final do Módulo 3: Bancos de dados relacionais @ Resilia Educação</p>
-      <p>Desenvolvimento Web Full Stack</p>
-      <p>Turma 10 - Grupo 04</p>
-      <p>RESILIA</p>
-    </div>
-    <div class="ms-5 ps-5">
-      <h6 style="font-weight: 600;" class="pb-4">Grupo 04</h6>
-      <p>Carolly Barbosa</p>
-      <p>Eliane Barros</p>
-      <p>Hugo Parada</p>
-      <p>Nádia Mizael</p>
-      <p>Rodrigo Cruz</p>
-    </div>
-  </footer>
-  <!-- scripts -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-    crossorigin="anonymous"></script>
-
-</body>
-
+    </footer>
+    <!-- scripts -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

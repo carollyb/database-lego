@@ -48,4 +48,4 @@
 
 ### Demonstração:
 
-![image](./images/grafico_3.png)
+![image](./assets/images/grafico_3.png)

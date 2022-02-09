@@ -20,7 +20,7 @@ group by part_cat_id having sum(quantity) > 20000 order by total desc;
 select  year, count(set_num) as "Total" from sets group by  year 
 having count(set_num) > 100 order by total desc limit 10;
 
-/*5- Quais os sets do tema Batman com mais de 500 peças e os anos de lançamento?*/
+/*5- Quais os sets do tema Batman com mais de 500 peças?*/
 
 select sets.name,sets.year , sets.num_parts from sets inner join themes on sets.theme_id = themes.id 
 where themes.name like '%batman%' and sets.num_parts > 500 order by num_parts desc;
